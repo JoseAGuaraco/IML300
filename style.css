@@ -3,6 +3,7 @@ h1 {
   font-size: 60pt;
   font-weight: 800;
   font-style: normal;
+  color: #FFFFFF;
 }
 
 h2 {
@@ -10,16 +11,30 @@ h2 {
   font-size: 60pt;
   font-weight: 500;
   font-style: normal;
+  color: #FFFFFF;
 }
 
 h3 {
-  font-size: 40;
+  font-size: 30pt;
   font-family: helvetica;
   font-weight: bold;
+  color: #FFFFFF;
 }
 
 h4 {
-  font-size: 25;
+  font-size: 25pt;
   font-family: helvetica;
   font-weight: normal;
+  color: #FFFFFF;
+}
+
+p {
+  font-size: 12pt;
+  font-family: serif;
+  font-weight: normal;
+  color: #FFFFFF;
+}
+
+body{
+  background-color: #000000;
 }
