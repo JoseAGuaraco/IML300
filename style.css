@@ -1,3 +1,51 @@
+header {
+  width: 70%;
+  height: 70%;
+  background: #000000;
+  margin: auto;
+  position: relative;
+  /* display: flex; */
+}
+
+.logo {
+  width: 50%;
+  margin:auto;
+}
+.buttons {
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+}
+
+.button {
+  /* width: 20%; */
+  height: 70px;
+  background: #000000;
+  flex: 1;
+  text-align: center;
+  margin-right: 5px;
+  margin-left: 5px;
+  /* float: left;
+  margin: 5%; */
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  margin-right: 30px;
+  margin-left: 30px;
+  background-color: #0000FF;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 h1 {
   font-family: titling-gothic-fb-narrow, sans-serif;
   font-size: 60pt;
@@ -19,13 +67,18 @@ h3 {
   font-family: helvetica;
   font-weight: bold;
   color: #FFFFFF;
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
 
 h4 {
-  font-size: 25pt;
+  font-size: 20pt;
   font-family: helvetica;
   font-weight: normal;
   color: #FFFFFF;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
 }
 
 p {
