@@ -7,6 +7,13 @@ header {
   /* display: flex; */
 }
 
+.corona {
+  width: 20%;
+  margin: auto;
+  margin-top: 20px;
+
+}
+
 .logo {
   width: 50%;
   margin:auto;
